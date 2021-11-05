@@ -27,7 +27,7 @@ local core_local_path = "walkbot"
 local core_version
 
 if not pcall(function() file.Read(core_local_path .. "\\version.txt") end) then
-    file.Write( core_local_path .. "\\version.txt", '0' )
+    file.Write( core_local_path .. "\\version.txt", '1.0.1' )
 else
     core_version = file.Read(core_local_path .. "\\version.txt")
 end
