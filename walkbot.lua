@@ -22,7 +22,7 @@ local function download_files(path, local_directory)
     end
 end
 
-local core_path = "https://raw.githubusercontent.com/devkanro/aimware_walkbot/master"
+local core_path = "https://raw.githubusercontent.com/ecb1337/walkbot/master"
 local core_local_path = "walkbot"
 local core_version
 
